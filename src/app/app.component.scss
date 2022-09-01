@@ -1,0 +1,14 @@
+.tree {
+  flex: 0 0 360px;
+  height: calc(100vh - 80px);
+  background-color: #fff;
+  box-shadow: 0 3px 5px #efefef;
+}
+.content {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 16px 0 32px;
+  padding: 16px;
+  border: 1px dashed #ccc;
+}

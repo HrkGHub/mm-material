@@ -1,0 +1,34 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 16px;
+
+  .context-name {
+    min-width: 350px;
+    font-size: 28px;
+    padding: 0 16px;
+  }
+  .context-type {
+    position: absolute;
+    bottom: 0px;
+    left: 58px;
+    font-size: 11px;
+  }
+
+  mat-button-toggle,
+  .mat-button-toggle-checked {
+    color: white;
+  }
+
+  mat-button-toggle.split-button {
+    background-color: #074b92;
+  }
+}
+
+:host ::ng-deep {
+  .mat-button-toggle-appearance-standard .mat-button-toggle-label-content {
+    line-height: 38px;
+  }
+}

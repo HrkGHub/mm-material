@@ -1,0 +1,32 @@
+.sidebar {
+  width: 64px;
+  height: 100%;
+  padding-top: 80px;
+  background-color: #f8f8f8;
+
+  .mat-toolbar {
+    display: flex;
+    flex-direction: column;
+
+    button.mat-icon-button {
+      width: 64px;
+      height: 48px;
+      line-height: unset;
+      border-radius: 0;
+
+      &:hover {
+        color: #fff;
+        background-color: #009688;
+      }
+    }
+
+    .sidebar-nav-desc {
+      height: 16px;
+      line-height: 16px;
+      font-size: 9px;
+      vertical-align: top;
+      white-space: nowrap;
+      margin-top: -6px;
+    }
+  }
+}
